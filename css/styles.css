@@ -1,0 +1,86 @@
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Comic Sans MS', cursive; 
+  line-height: 1.6;
+  background-color: #C4A484; 
+  color: #5C4033; 
+  max-width: 100%;
+}
+
+ul.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #FFCCCC;
+  text-align: center;
+  list-style-type: none; 
+  padding: 0; 
+  display: flex;
+  justify-content: space-around; 
+  border: none;
+}
+
+ul.navbar li {
+  width: 25%;
+}
+
+ul.navbar li a {
+  font-family: 'Comic Sans MS', cursive; 
+  color: #5C4033; 
+  text-decoration: none;
+  display: block;
+  padding: 2%; 
+  font-size: 1.5rem; 
+}
+
+section {
+  padding: 20px;
+  max-width: 90%;
+  margin: 8% auto 2%;
+  background-color: #FF99CC;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  clear: both;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  clear: both; /* Add this to ensure images don't float over the sections */
+}
+
+section ul {
+  list-style: none;
+}
+
+.image-container {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2%;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2%; 
+  float: left;
+  margin-right: 2%;
+  clear: left;
+}
+
+h1, h2 {
+  color: #FF6699; 
+  margin-top: 2%;
+}
+
+p {
+  margin-bottom: 2%;
+  clear: both;
+}
