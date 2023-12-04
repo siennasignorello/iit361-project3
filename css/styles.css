@@ -84,11 +84,3 @@ p {
   margin-bottom: 2%;
   clear: both;
 }
-
-iframe {
-    width: 700%;
-    height: 700%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
