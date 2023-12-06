@@ -81,14 +81,14 @@ async function initMap() {
   for (let i = 0; i < places.length; i++) {
     const marker = new google.maps.Marker({
       position: places[i].position,
-      logo: logos[places[i].type].logo,
+      logo: logos[places[i].type].icon,
       map: map,
     });
   }
 
   var points = [
     {lat: 41.87296, lng: -87.62767}, //jcp
-    {lat: 41.87298, lng: -87.62774}
+    {lat: 41.87298, lng: -87.62774},
     {lat: 41.87463, lng: -87.62763}, //corner
     {lat: 41.87461, lng: -87.62902},
     {lat: 41.87466, lng: -87.62901}, //starbucks
