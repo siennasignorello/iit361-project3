@@ -85,6 +85,16 @@ p {
   clear: both;
 }
 
+.slideshow-container {
+  max-width: 100%;
+  margin: 0 auto; 
+  overflow: hidden; 
+}
+
+.mySlides {
+  display: none;
+}
+
 #map {
   height: 600px;
   width: 100%
